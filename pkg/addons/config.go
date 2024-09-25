@@ -126,10 +126,9 @@ var Addons = []*Addon{
 		callbacks:   []setFn{EnableOrDisableAddon},
 	},
 	{
-		name:        "nvidia-gpu-device-plugin",
-		set:         SetBool,
-		validations: []setFn{isKVMDriverForNVIDIA},
-		callbacks:   []setFn{EnableOrDisableAddon},
+		name:      "nvidia-gpu-device-plugin",
+		set:       SetBool,
+		callbacks: []setFn{EnableOrDisableAddon},
 	},
 	{
 		name:      "olm",
@@ -230,6 +229,7 @@ var Addons = []*Addon{
 		callbacks: []setFn{EnableOrDisableAddon},
 	},
 	{
+		// The nvidia-device-plugin addon is deprecated and it's functionality is merged inside of nvidia-gpu-device-plugin addon.
 		name:      "nvidia-device-plugin",
 		set:       SetBool,
 		callbacks: []setFn{EnableOrDisableAddon},
