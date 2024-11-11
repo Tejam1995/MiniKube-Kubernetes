@@ -71,10 +71,10 @@ require (
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
 	golang.org/x/mod v0.21.0
 	golang.org/x/oauth2 v0.23.0
-	golang.org/x/sync v0.8.0
+	golang.org/x/sync v0.9.0
 	golang.org/x/sys v0.25.0
 	golang.org/x/term v0.24.0
-	golang.org/x/text v0.18.0
+	golang.org/x/text v0.20.0
 	gonum.org/v1/plot v0.14.0
 	google.golang.org/api v0.198.0
 	gopkg.in/yaml.v2 v2.4.0
